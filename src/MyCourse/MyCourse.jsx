@@ -1,10 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Component/Navbar";
 import Header from "../Component/Header";
 
 
 const MyCourse = () => {
-    const courses = JSON.parse(localStorage.getItem("courses"));
+    // const courses = JSON.parse(localStorage.getItem("courses"));
+    // console.log("halo")
+    const [courses, setCourses] = useState(null);
+
+    
+    useEffect(()=>{
+      const coursesData = localStorage.getItem("courses");
+      console.log(JSON.parse(coursesData))
+      console.log(typeof coursesData)
+      if (coursesData?.length > 0){
+        setCourses(JSON.parse(coursesData))
+      }else{
+        setCourses(null)
+      }
+    }, [])
+
 
     const [buttonStates, setButtonStates] = useState({
       button1: false,
@@ -88,7 +103,7 @@ const MyCourse = () => {
                   </td>
 
                 <td className="border-[2px] border-black">{item.Units}</td>
-                <td className="border-[2px] border-black">EVEN</td>
+                <td className="border-[2px] border-black">{item.When}</td>
                 <td className="border-[2px] border-black"></td>
               </tr>
             ))}

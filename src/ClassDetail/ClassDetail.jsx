@@ -8,7 +8,7 @@ const ClassDetail = () => {
   // const courses1 = JSON.parse(localStorage.getItem("selectedCourse"));
 
   console.log(JSON.parse(localStorage.getItem("selectedMk")));
-  console.log(JSON.parse(localStorage.getItem("selectedCourse")));
+  // console.log(JSON.parse(localStorage.getItem("selectedCourse")));
 
 
   // console.log(JSON.parse(localStorage.getItem("selectedCourse")));
@@ -129,8 +129,21 @@ const ClassDetail = () => {
                   <td className="border-2">1</td>
                   <td className="border-2">OK</td>
                   <td className="border-2 text-center">
-                    <div className="flex justify-end">
-                      <a href="my-course">
+                    <div className="flex justify-between">
+                      <a href="/my-course"
+                      onClick={() =>{
+                        
+                        const courses = JSON.parse(
+                          localStorage.getItem("courses"))
+                        const selectedCourse = JSON.parse(
+                          localStorage.getItem("selectedMk"))
+                        
+                          const selectedIndex = courses.filter(item => item.CourseCode != selectedCourse.CourseCode)
+                          // JSON.stringify(localStorage.setItem("courses", selectedIndex))
+                          localStorage.setItem("courses", JSON.stringify([selectedIndex]))
+                      }}
+                      >Remove</a>
+                      <a href="/my-course">
                         <button
                           className="p-1 bg-[#FDF7E7] mt-2"
                           onClick={() => {

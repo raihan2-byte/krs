@@ -5,6 +5,7 @@ import AddClassPage from "../src/AddClassPage/AddClassPage"
 import ClassDetail from "./ClassDetail/ClassDetail";
 import MyCourse from "./MyCourse/MyCourse";
 import ClassDetailFromAddClass from "../src/ClassDetail/ClassDetailFromAdd"
+import Login from "./Component/Login/Login";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <section>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/add-class" element={<AddClassPage />} />
           <Route path="/class-detail" element={<ClassDetail />} />
           <Route path="/class-details" element={<ClassDetailFromAddClass />} />

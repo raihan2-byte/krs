@@ -25,7 +25,7 @@ const AddClass = () => {
       {
         CourseCode : "TIN 107",
         Description : "Aljabar",
-        When : "EVEN Semester 2020/2021",
+        When : "EVEN",
         Units : "3.00",
         Grade : "B+",
         Status : "Passed"
@@ -33,7 +33,7 @@ const AddClass = () => {
       {
         CourseCode : "TIN 108",
         Description : "Web",
-        When : "EVEN Semester 2020/2021",
+        When : "EVEN",
         Units : "4.00",
         Grade : "B+",
         Status : "Passed"
@@ -41,7 +41,7 @@ const AddClass = () => {
       {
         CourseCode : "TIN 109",
         Description : "Kalkulus",
-        When : "EVEN Semester 2020/2021",
+        When : "EVEN",
         Units : "2.00",
         Grade : "B+",
         Status : "Passed"

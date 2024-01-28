@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/picture/logo1.png";
+import Logo from "../assets/picture/Logo_Unika_Atma_Jaya.png";
 import HomeSvg from "../assets/svg/Home.svg"
 
 const Navbar = () => {
