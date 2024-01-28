@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Accordion from "./Accordion";
 
-
 const AddClass = () => {
-  
   const [favoritesDropdownOpen, setFavoritesDropdownOpen] = useState(false);
   const [coreCourseDropdownOpen, setcoreCourseDropdownOpen] = useState(false);
   const [coreCourseSem2DropdownOpen, setcoreCourseSem2DropdownOpen] =
@@ -21,32 +19,32 @@ const AddClass = () => {
   const [coreCourseSem8DropdownOpen, setcoreCourseSem8DropdownOpen] =
     useState(false);
 
-    const data = [
-      {
-        CourseCode : "TIN 107",
-        Description : "Aljabar",
-        When : "EVEN",
-        Units : "3.00",
-        Grade : "B+",
-        Status : "Passed"
-      },
-      {
-        CourseCode : "TIN 108",
-        Description : "Web",
-        When : "EVEN",
-        Units : "4.00",
-        Grade : "B+",
-        Status : "Passed"
-      },
-      {
-        CourseCode : "TIN 109",
-        Description : "Kalkulus",
-        When : "EVEN",
-        Units : "2.00",
-        Grade : "B+",
-        Status : "Passed"
-      }
-    ]
+  const data = [
+    {
+      CourseCode: "TIN 107",
+      Description: "Aljabar",
+      When: "EVEN",
+      Units: "3.00",
+      Grade: "B+",
+      Status: "Passed",
+    },
+    {
+      CourseCode: "TIN 108",
+      Description: "Web",
+      When: "EVEN",
+      Units: "4.00",
+      Grade: "B+",
+      Status: "Passed",
+    },
+    {
+      CourseCode: "TIN 109",
+      Description: "Kalkulus",
+      When: "EVEN",
+      Units: "2.00",
+      Grade: "B+",
+      Status: "Passed",
+    },
+  ];
 
   return (
     <div className="m-2">
@@ -114,7 +112,7 @@ const AddClass = () => {
                 </div>
               </button>
             </div>
-            
+
             <ul
               className={`dropdown-menu absolute ${
                 coreCourseDropdownOpen ? "block" : "hidden"
@@ -139,26 +137,27 @@ const AddClass = () => {
                       </tr>
                     </thead>
                     <tbody className="border-[1px] border-blacks text-[12px]">
-                      {data.map((item,index)=>(
-                      <tr className="border-[1px] border-blacks">
-                        <td>{item.CourseCode}</td>
-                        <a href="class-details" className="text-blue-500"
-                        onClick={()=>(
-                          localStorage.setItem("selectedCourse", JSON.stringify(item))
-                        )}
-                        >
-                          <td>{item.Description}</td>
-                        </a>
-                        <td>{item.Units}</td>
-                        <td className="w-[20%] m-auto">
-                          {item.When}
-                        </td>
-                        <td>{item.Grade}</td>
-                        <td>{item.Status}</td>
-                      </tr>
-                      ))
-                      }
-                      
+                      {data.map((item, index) => (
+                        <tr key={index} className="border-[1px] border-blacks">
+                          <td>{item.CourseCode}</td>
+                          <a
+                            href="class-details"
+                            className="text-blue-500"
+                            onClick={() =>
+                              localStorage.setItem(
+                                "selectedCourse",
+                                JSON.stringify(item)
+                              )
+                            }
+                          >
+                            <td>{item.Description}</td>
+                          </a>
+                          <td>{item.Units}</td>
+                          <td className="w-[20%] m-auto">{item.When}</td>
+                          <td>{item.Grade}</td>
+                          <td>{item.Status}</td>
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
                 </div>
@@ -180,9 +179,7 @@ const AddClass = () => {
             <div className="inline-flex items-center justify-between ml-3">
               <button
                 className="text-black font-semibold py-1 px-2 items-center "
-                onClick={() => {
-                  
-                }}
+                onClick={() => {}}
               >
                 <div className="flex items-center justify-between w-[88vh]">
                   <div className="inline-flex items-center">
