@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+  } */
+
+  
+/* Default state: dropdown is hidden */
+/* li.dropdown-student .dropdown-menu-student {
+  display: none;
+} */
+
+/* Show dropdown when parent li is hovered */
+/* li.dropdown-student:hover .dropdown-menu-student {
+  display: block;
+} */
+
+/* li.dropdown-enrollment .dropdown-menu-enrollment {
+  display: none;
+} */
+
+/* Show dropdown when parent li is hovered */
+/* li.dropdown-enrollment:hover .dropdown-menu-enrollment {
+  display: block;
+} */
