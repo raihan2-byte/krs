@@ -137,8 +137,8 @@ const ClassDetail = () => {
                     <td className="border-2">1</td>
                     <td className="border-2">OK</td>
                     <td className="border-2 text-center">
-                      <div className="flex justify-between">
-                        <a
+                      <div className="flex justify-evenly items-center ">
+                        <a className=""
                           href="/my-course"
                           onClick={() => {
                             const courses = JSON.parse(

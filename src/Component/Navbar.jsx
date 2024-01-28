@@ -17,7 +17,7 @@ const Navbar = () => {
                   <div className="flex">
                   <img src={HomeSvg} alt="" className="w-[20px] items-center"/>
                   <a
-                    href="/"
+                    href="/home"
                     class="text-white hover:text-gray-300 py-2 pr-6 text-sm font-medium"
                     aria-current="page"
                   >
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex">
                   <a
-                    href="/"
+                    href="/home"
                     class="text-white hover:text-gray-300 px-6 py-2 text-sm font-medium"
                   >
                     Elearning Atma Jaya
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex">
                   <a
-                    href="/"
+                    href="/home"
                     class="text-white hover:text-gray-300 px-6 py-2 text-sm font-medium"
                   >
                     Add to Favorites
@@ -53,7 +53,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex">
                   <a
-                    href="/"
+                    href="/home"
                     class="text-white hover:text-gray-300 px-6 py-2 text-sm font-medium"
                   >
                     Sign Out

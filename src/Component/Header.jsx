@@ -46,7 +46,7 @@ const Header = () => {
             <li className="">
               <a
                 className="text-black font-semibold  hover:bg-gray-100  px-4 block whitespace-no-wrap"
-                href="/"
+                href="/home"
               >
                 Recently Used
               </a>
@@ -56,7 +56,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[7%] mr-4" />
                 <a
                   className=" text-blue-400 hover:bg-gray-100 block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   Enrollment: Add Classes
                 </a>
@@ -67,7 +67,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[7%] mr-4" />
                 <a
                   className="text-blue-400  hover:bg-gray-100 block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   SKP Recap - Student
                 </a>
@@ -78,7 +78,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[7%] mr-4" />
                 <a
                   className="text-blue-400  hover:bg-gray-100  block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   My Course History
                 </a>
@@ -90,7 +90,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[7%] mr-4" />
                 <a
                   className="text-blue-400  hover:bg-gray-100 block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   Account Inquiry
                 </a>
@@ -101,7 +101,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[7%] mr-4" />
                 <a
                   className="text-blue-400  hover:bg-gray-100 block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   Kuesioner Kepuasan Mahasiswa
                 </a>
@@ -110,7 +110,7 @@ const Header = () => {
             <li className="">
               <a
                 className="text-black font-semibold  hover:bg-gray-100 pt-2  px-4 block whitespace-no-wrap"
-                href="/"
+                href="/home"
               >
                 My Favorites
               </a>
@@ -118,7 +118,7 @@ const Header = () => {
             <li className="">
               <a
                 className="text-blue-400  hover:bg-gray-100  px-4 block whitespace-no-wrap"
-                href="/"
+                href="/home"
               >
                 Add to Favorites
               </a>
@@ -126,7 +126,7 @@ const Header = () => {
             <li className="">
               <a
                 className="text-blue-400  hover:bg-gray-100  px-4 block whitespace-no-wrap"
-                href="/"
+                href="/home"
               >
                 Edit Favorite
               </a>
@@ -158,7 +158,7 @@ const Header = () => {
             <li className="">
               <a
                 className=" text-blue-400 hover:bg-gray-100   block whitespace-no-wrap"
-                href="/"
+                href="/home"
               >
                 Search Menu
               </a>
@@ -166,7 +166,7 @@ const Header = () => {
             <li className="">
               <a
                 className="text-black font-semibold  hover:bg-gray-100  block whitespace-no-wrap"
-                href="/"
+                href="/home"
               >
                 <div class="mb-3">
                   <div class="relative mb-4 flex w-full flex-wrap items-stretch">
@@ -191,7 +191,7 @@ const Header = () => {
               >
                 <div className="flex items-center">
                   <img src={SelfServiceSvg} alt="" className="w-[10%] mr-2" />
-                  <a className="text-blue-400 hover:bg-gray-100 ">
+                  <a className="text-blue-400 hover:bg-gray-100 font-normal">
                     Self Service
                   </a>
                 </div>
@@ -215,7 +215,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[7%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Class Search / Browse Catalog
                     </a>
@@ -234,7 +234,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[8%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Academic Planning
                     </a>
@@ -263,7 +263,7 @@ const Header = () => {
                         alt=""
                         className="w-[10%] mr-2"
                       />
-                      <a className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap">
+                      <a className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap font-normal">
                         Enrollment
                       </a>
                     </div>
@@ -286,7 +286,7 @@ const Header = () => {
                         <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                         <a
                           className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                          href="/"
+                          href="/home"
                         >
                           Enrollment Dates
                         </a>
@@ -297,7 +297,7 @@ const Header = () => {
                         <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                         <a
                           className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                          href="/"
+                          href="/home"
                         >
                           My Class Schedule
                         </a>
@@ -308,7 +308,7 @@ const Header = () => {
                         <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                         <a
                           className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                          href="/"
+                          href="/home"
                         >
                           My Weekly Schedule
                         </a>
@@ -330,7 +330,7 @@ const Header = () => {
                         <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                         <a
                           className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                          href="/"
+                          href="/home"
                         >
                           Enrollment: Drop Classes
                         </a>
@@ -341,7 +341,7 @@ const Header = () => {
                         <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                         <a
                           className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                          href="/"
+                          href="/home"
                         >
                           View My Milestones
                         </a>
@@ -354,7 +354,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[9%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Campus Finances
                     </a>
@@ -373,7 +373,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[7%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Campus Personal Information
                     </a>
@@ -392,7 +392,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[9%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Academic Records
                     </a>
@@ -411,7 +411,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[10%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Transfer Credit
                     </a>
@@ -430,7 +430,7 @@ const Header = () => {
                     <img src={SelfServiceSvg} alt="" className="w-[9%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Research Activities
                     </a>
@@ -449,7 +449,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Cek Jadwal Sidang
                     </a>
@@ -460,7 +460,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       My Exam Timetable
                     </a>
@@ -471,7 +471,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Academic Evaluation
                     </a>
@@ -482,7 +482,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Student Center
                     </a>
@@ -493,7 +493,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Kuesioner Mahasiswa Baru
                     </a>
@@ -504,7 +504,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       SKP Recap - Student
                     </a>
@@ -515,7 +515,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Upload SKP - Student
                     </a>
@@ -526,7 +526,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Upload Document Mahasiswa
                     </a>
@@ -537,7 +537,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Service Request
                     </a>
@@ -548,7 +548,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Student Status
                     </a>
@@ -559,7 +559,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Kuesioner Kepuasan Mahasiswa
                     </a>
@@ -570,7 +570,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Kuesioner Pemetaan Mhs Baru
                     </a>
@@ -581,7 +581,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       Request Letters
                     </a>
@@ -601,8 +601,8 @@ const Header = () => {
                 <div className="flex items-center">
                   <img src={SelfServiceSvg} alt="" className="w-[8%] mr-2" />
                   <a
-                    className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap"
-                    href="/"
+                    className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap font-normal"
+                    href="/home"
                   >
                     Campus Community
                   </a>
@@ -624,7 +624,7 @@ const Header = () => {
                 <li>
                   <a
                     className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                    href="/"
+                    href="/home"
                   >
                     Student Graduate Detail
                   </a>
@@ -632,7 +632,7 @@ const Header = () => {
                 <li>
                   <a
                     className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                    href="/"
+                    href="/home"
                   >
                     Graduation Registration
                   </a>
@@ -645,7 +645,7 @@ const Header = () => {
                   <img src={SelfServiceSvg} alt="" className="w-[8.5%] mr-2" />
                   <a
                     className=" text-blue-400 hover:bg-gray-100   block whitespace-no-wrap"
-                    href="/"
+                    href="/home"
                   >
                     Student Financials
                   </a>
@@ -672,8 +672,8 @@ const Header = () => {
                 <div className="flex items-center">
                   <img src={SelfServiceSvg} alt="" className="w-[9%] mr-2" />
                   <a
-                    className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap"
-                    href="/"
+                    className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap font-normal"
+                    href="/home"
                   >
                     Reporting Tools
                   </a>
@@ -703,7 +703,7 @@ const Header = () => {
                   >
                     <a
                       className="text-blue-400 hover:bg-gray-100 block whitespace-no-wrap"
-                      href="/"
+                      href="/home"
                     >
                       BI Publisher
                     </a>
@@ -724,7 +724,7 @@ const Header = () => {
                     <li>
                       <a
                         className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                        href="/"
+                        href="/home"
                       >
                         Setup
                       </a>
@@ -732,7 +732,7 @@ const Header = () => {
                     <li>
                       <a
                         className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                        href="/"
+                        href="/home"
                       >
                         Report Definition
                       </a>
@@ -740,7 +740,7 @@ const Header = () => {
                     <li>
                       <a
                         className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                        href="/"
+                        href="/home"
                       >
                         Content Library
                       </a>
@@ -748,7 +748,7 @@ const Header = () => {
                     <li>
                       <a
                         className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                        href="/"
+                        href="/home"
                       >
                         Query Report Viewer
                       </a>
@@ -756,7 +756,7 @@ const Header = () => {
                     <li>
                       <a
                         className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                        href="/"
+                        href="/home"
                       >
                         Query Report Scheduler
                       </a>
@@ -764,7 +764,7 @@ const Header = () => {
                     <li>
                       <a
                         className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                        href="/"
+                        href="/home"
                       >
                         BIP Report Search
                       </a>
@@ -779,7 +779,7 @@ const Header = () => {
                   <img src={SelfServiceSvg} alt="" className="w-[10%] mr-2" />
                   <a
                     className=" text-blue-400 hover:bg-gray-100   block whitespace-no-wrap"
-                    href="/"
+                    href="/home"
                   >
                     People Tools
                   </a>
@@ -799,7 +799,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                 <a
                   className="text-blue-400  hover:bg-gray-100   block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   Change My Password
                 </a>
@@ -810,7 +810,7 @@ const Header = () => {
                 <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                 <a
                   className="text-blue-400  hover:bg-gray-100   block whitespace-no-wrap"
-                  href="/"
+                  href="/home"
                 >
                   My System Profile
                 </a>
