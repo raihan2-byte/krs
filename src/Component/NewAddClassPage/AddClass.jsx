@@ -18,19 +18,13 @@ const AddClass = () => {
     useState(false);
   const [coreCourseSem8DropdownOpen, setcoreCourseSem8DropdownOpen] =
     useState(false);
-  const ipk = parseFloat(2.5)
-  const rules = [
-    {
-      ipk : parseFloat(2.5), 
-      maksimalSks : 10
-    }
-  ]
+
   const data = [
     {
       CourseCode: "TIN 107",
       Description: "Fisika Dasar",
       When: "EVEN",
-      Units: 3,
+      Units: "3.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -38,7 +32,7 @@ const AddClass = () => {
       CourseCode: "TIN 108",
       Description: "Kimia",
       When: "EVEN",
-      Units: 4,
+      Units: "4.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -46,7 +40,7 @@ const AddClass = () => {
       CourseCode: "TIN 109",
       Description: "Multikultural",
       When: "EVEN",
-      Units: 2,
+      Units: "2.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -57,7 +51,7 @@ const AddClass = () => {
       CourseCode: "TIN 110",
       Description: "Manajemen Pemasaran",
       When: "EVEN",
-      Units: 3,
+      Units: "3.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -65,7 +59,7 @@ const AddClass = () => {
       CourseCode: "TIN 111",
       Description: "Kewirausahaan",
       When: "EVEN",
-      Units: 4,
+      Units: "4.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -73,7 +67,7 @@ const AddClass = () => {
       CourseCode: "TIN 112",
       Description: "Praktikum Inovasi",
       When: "EVEN",
-      Units: 2,
+      Units: "2.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -84,7 +78,7 @@ const AddClass = () => {
       CourseCode: "TIN 113",
       Description: "Praktikum Dasar",
       When: "EVEN",
-      Units: 3,
+      Units: "3.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -92,7 +86,7 @@ const AddClass = () => {
       CourseCode: "TIN 114",
       Description: "Keagamaan",
       When: "EVEN",
-      Units: 4,
+      Units: "4.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -100,7 +94,7 @@ const AddClass = () => {
       CourseCode: "TIN 115",
       Description: "Fisika II",
       When: "EVEN",
-      Units: 2,
+      Units: "2.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -111,7 +105,7 @@ const AddClass = () => {
       CourseCode: "TIN 116",
       Description: "Persamaan Diferensial",
       When: "EVEN",
-      Units: 3,
+      Units: "3.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -119,7 +113,7 @@ const AddClass = () => {
       CourseCode: "TIN 117",
       Description: "Penelitian Operasional",
       When: "EVEN",
-      Units: 4,
+      Units: "4.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -127,7 +121,7 @@ const AddClass = () => {
       CourseCode: "TIN 118",
       Description: "Penelitian Operasional II",
       When: "EVEN",
-      Units: 2,
+      Units: "2.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -138,7 +132,7 @@ const AddClass = () => {
       CourseCode: "TIN 119",
       Description: "Psikologi Industri",
       When: "EVEN",
-      Units: 3,
+      Units: "3.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -146,7 +140,7 @@ const AddClass = () => {
       CourseCode: "TIN 120",
       Description: "Teknologi Berkelanjutan",
       When: "EVEN",
-      Units: 4,
+      Units: "4.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -154,7 +148,7 @@ const AddClass = () => {
       CourseCode: "TIN 121",
       Description: "Logika",
       When: "EVEN",
-      Units: 2,
+      Units: "2.00",
       Grade: "B+",
       Status: "Passed",
     },
@@ -561,7 +555,7 @@ const AddClass = () => {
               <button
                 className="text-black font-semibold py-1 px-2 items-center "
                 onClick={() => {
-                  setcoreCourseSem4DropdownOpen(!coreCourseSem4DropdownOpen);
+                  setcoreCourseSem5DropdownOpen(!coreCourseSem5DropdownOpen);
                 }}
               >
                 <div className="flex items-center justify-between w-[88vh]">
@@ -585,7 +579,7 @@ const AddClass = () => {
             </div>
             <ul
               className={`dropdown-menu absolute ${
-                coreCourseSem4DropdownOpen ? "block" : "hidden"
+                coreCourseSem5DropdownOpen ? "block" : "hidden"
               } bg-white text-black-700 `}
             >
               <li className="justify-between ">

@@ -20,7 +20,7 @@ const MyCourse = () => {
       setCurrentStep(3);
     } else if (currentStep === 3) {
       // Navigate to "/home" when in the 3rd step
-      window.location.href = '/home';
+      window.location.href = '/new-add-class';
     }
   };;
 
@@ -140,9 +140,9 @@ const MyCourse = () => {
           className="underline p-1 bg-orange-500 text-blue-500 font-bold border-2 border-black"
           onClick={handleButtonClick}
         >
-          {currentStep === 1 && 'Search'}
+          {currentStep === 1 && 'Next'}
           {currentStep === 2 && 'Processing 2 of 3'}
-          {currentStep === 3 && 'Processing 3 of 3'}
+          {currentStep === 3 && 'Finish Enrolling'}
         </button>
           </div>
         </div>

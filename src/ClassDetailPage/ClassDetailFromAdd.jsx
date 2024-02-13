@@ -9,6 +9,13 @@ const ClassDetail = () => {
   console.log(JSON.parse(localStorage.getItem("selectedMk")));
   console.log(JSON.parse(localStorage.getItem("selectedCourse")));
 
+  const ipk = parseFloat(2.5)
+  const rules = [
+    {
+      ipk : parseFloat(2.5), 
+      maksimalSks : 10
+    }
+  ]
   // console.log(JSON.parse(localStorage.getItem("selectedCourse")));
   return (
     <>
@@ -138,7 +145,7 @@ const ClassDetail = () => {
                     <td className="border-2">OK</td>
                     <td className="border-2 text-center">
                       <div className="flex justify-end">
-                        <a href="my-course">
+                        {/* <a href="/new-add-class"> */}
                         <button
                           className="p-1 bg-[#FDF7E7] mt-2"
                           onClick={() => {
@@ -148,6 +155,13 @@ const ClassDetail = () => {
                             const courses = JSON.parse(
                               localStorage.getItem("courses")
                             );
+                            const totalSks = courses.reduce((acc, curr)=>
+                            acc + parseInt(curr.Units), 0
+                            )
+                            if (totalSks + parseInt(selectedCourse.Units) >= 14){
+                              alert("hanya bisa mengambil sebanyak 14 sks karena ipk anda " + ipk)
+                              return
+                            }
                             let arr = [];
                             if (!courses) {
                               arr.push(selectedCourse);
@@ -166,7 +180,7 @@ const ClassDetail = () => {
                         >
                           Add Course
                         </button>
-                        </a>
+                        {/* </a> */}
                       </div>
                     </td>
                   </tr>

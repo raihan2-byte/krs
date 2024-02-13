@@ -11,7 +11,7 @@ const Sidebar = () => {
   const [Advisor, setAdvisor] = useState(false);
 
   return (
-    <div className="w-1/3 m-2 ">
+    <div className="w-1/3  m-2 ">
       <div className="border-2 border-black p-1 my-1 text-center rounded-sm">
         <button className="bg-[#FBE9C9] p-1 px-6 rounded-sm text-[12px] w-full border-2">
           Search for Classes

@@ -10,6 +10,8 @@ const ClassDetail = () => {
   // console.log(JSON.parse(localStorage.getItem("selectedCourse")));
 
   // console.log(JSON.parse(localStorage.getItem("selectedCourse")));
+
+
   return (
     <>
       <Header />
@@ -170,6 +172,8 @@ const ClassDetail = () => {
                               const courses = JSON.parse(
                                 localStorage.getItem("courses")
                               );
+                              console.log(courses)
+                              return
                               if (!courses) {
                                 localStorage.setItem(
                                   "courses",

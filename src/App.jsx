@@ -7,6 +7,8 @@ import MyCourse from "./MyCourse/MyCourse";
 import ClassDetailFromAddClass from "../src/ClassDetailPage/ClassDetailFromAdd"
 import Login from "./Component/Login/Login";
 import StudentCenter from "./StudentCenterPage/StudentCenter";
+import NewAddClassPage from "../src/NewAddClassPage/NewAddClassPage"
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
           <Route path="/class-details" element={<ClassDetailFromAddClass />} />
           <Route path="/student-center" element={<StudentCenter/>} />
           <Route path="/my-course" element={<MyCourse />} />
+          <Route path="/New-add-class" element={<NewAddClassPage/>} />
         </Routes>
       </BrowserRouter>
     </section>
