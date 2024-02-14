@@ -482,7 +482,7 @@ const Header = () => {
                     <img src={FileSVG} alt="" className=" w-[6%] mr-2" />
                     <a
                       className="text-blue-400 hover:bg-gray-100  block whitespace-no-wrap"
-                      href="/home"
+                      href="/student-center"
                     >
                       Student Center
                     </a>

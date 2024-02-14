@@ -45,8 +45,10 @@ const StudentCenterDetail = () => {
                   <span>earch</span>
                 </div>
                 <div className="font-bold">
+                  <a href="/new-add-class">
                   <span className="underline">E</span>
                   <span>nroll</span>
+                  </a>
                 </div>
                 <div className="font-bold">
                   <span className="underline">My</span>

@@ -1,9 +1,14 @@
 import React from 'react'
 import Sidebar from '../Component/StudentCenterPage/Sidebar'
 import StudentCenterDetail from '../Component/StudentCenterPage/StudentCenterDetail'
+import Header from '../Component/Header'
+import Navbar from '../Component/Navbar'
 
 const StudentCenter = () => {
   return (
+    <>
+    <Header/>
+    <Navbar />
     <div className='m-4 mt-6'>
       <div className="flex text-[14px] gap-24 mb-5">
         <div>MARSELA GRACIA</div>
@@ -15,6 +20,7 @@ const StudentCenter = () => {
         <Sidebar />
     </div>
     </div>
+    </>
   )
 }
 
