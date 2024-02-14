@@ -12,7 +12,7 @@ const ClassDetail = () => {
   const ipk = parseFloat(2.5)
   const rules = [
     {
-      ipk : parseFloat(2.5), 
+      ipk : parseFloat(1.8), 
       maksimalSks : 10
     }
   ]
@@ -145,7 +145,7 @@ const ClassDetail = () => {
                     <td className="border-2">OK</td>
                     <td className="border-2 text-center">
                       <div className="flex justify-end">
-                        {/* <a href="/new-add-class"> */}
+                        <a href="/new-add-class">
                         <button
                           className="p-1 bg-[#FDF7E7] mt-2"
                           onClick={() => {
@@ -158,8 +158,8 @@ const ClassDetail = () => {
                             const totalSks = courses.reduce((acc, curr)=>
                             acc + parseInt(curr.Units), 0
                             )
-                            if (totalSks + parseInt(selectedCourse.Units) >= 14){
-                              alert("hanya bisa mengambil sebanyak 14 sks karena ipk anda " + ipk)
+                            if (totalSks + parseInt(selectedCourse.Units) >= 17){
+                              alert("hanya bisa mengambil lebih dari 17 sks karena ipk anda " + ipk)
                               return
                             }
                             let arr = [];
@@ -180,7 +180,7 @@ const ClassDetail = () => {
                         >
                           Add Course
                         </button>
-                        {/* </a> */}
+                        </a>
                       </div>
                     </td>
                   </tr>
