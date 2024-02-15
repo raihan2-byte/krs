@@ -156,7 +156,7 @@ const ClassDetail = () => {
                             const courses = JSON.parse(
                               localStorage.getItem("courses")
                             );
-                            const totalSks = courses.reduce((acc, curr)=>
+                            const totalSks = courses?.reduce((acc, curr)=>
                             acc + parseInt(curr.Units), 0
                             )
                             if (totalSks + parseInt(selectedCourse.Units) >= 17){
