@@ -1,8 +1,22 @@
 import React from "react";
 import MyCourse from "../../MyCourse/MyCourse";
 import NewMyCourse from "../../MyCourse/NewMyCourse";
+import { useState } from "react";
 
 const HeroAddClass = () => {
+  const [currentStep, setCurrentStep] = useState(1);
+
+  const handleButtonClick = () => {
+    if (currentStep === 1) {
+      setCurrentStep(2);
+    } else if (currentStep === 2) {
+      setCurrentStep(3);
+    } else if (currentStep === 3) {
+      // Navigate to "/home" when in the 3rd step
+      window.location.href = '/home';
+    }
+  };;
+
   return (
     <div className="m-5 w-[60%]">
       <div className="flex justify-between my-4">
@@ -142,7 +156,7 @@ const HeroAddClass = () => {
               </label>
             </div>
             <div className="bg-[#FCEDD2] my-2 text-center w-[70%]">
-              <button className=" text-[12px]">Search</button>
+              <a href="/add-class" className=" text-[12px]">Search</a>
             </div>
             </div>
 
@@ -151,6 +165,18 @@ const HeroAddClass = () => {
             <NewMyCourse />
           </div>
         </div>
+        <div className="w-full flex justify-end">
+
+        <button
+          className="underline p-1 bg-[#FCEDD2] font-bold border-2 border-black w-1/3 "
+          onClick={handleButtonClick}
+        >
+          {currentStep === 1 && 'Next'}
+          {currentStep === 2 && 'Processing 2 of 3'}
+          {currentStep === 3 && 'Finish Enrolling'}
+        </button>
+        </div>
+       
       </div>
       <hr className="h-px bg-black border-[0.5px] " />
 

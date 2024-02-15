@@ -13,7 +13,7 @@ const AddClassPage = () => {
         <Navbar />
         <NavAddClass/>
         <HeroAddClass />
-        <AddClass/>
+        {/* <AddClass/> */}
     </div>
   )
 }
